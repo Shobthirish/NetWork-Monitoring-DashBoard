@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Network Monitoring Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="dashboard">
+        <h1>Network Monitoring Dashboard</h1>
+        <div class="card">
+            <h2>Bandwidth Usage</h2>
+            <p><strong>Download:</strong> <span id="downloadSpeed">0 Mbps</span></p>
+            <p><strong>Upload:</strong> <span id="uploadSpeed">0 Mbps</span></p>
+        </div>
+        <div class="card">
+            <h2>Ping Test</h2>
+            <p><strong>Status:</strong> <span id="pingStatus">Testing...</span></p>
+        </div>
+        <div class="card">
+            <h2>Connected Devices</h2>
+            <ul id="deviceList">
+                <li>Device 1: Online</li>
+                <li>Device 2: Online</li>
+                <li>Device 3: Offline</li>
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
